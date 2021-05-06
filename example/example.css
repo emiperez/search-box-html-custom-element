@@ -21,6 +21,10 @@ form[is=search-box] input[type=search] {
 	outline: 0;
 }
 
+form[is=search-box] input[type=search]::placeholder {
+	color: grey;
+}
+
 form[is=search-box] button[type=reset] {
 	right: 50px;
 	top: 10px;
